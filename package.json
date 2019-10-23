@@ -1,5 +1,5 @@
 {
-  "name": "twittterbot_fundamentals",
+  "name": "js_fundamentals",
   "version": "1.0.0",
   "description": "I'm a friendly bot retweeting all about Javascript Fundamentals Aka VanillaJS",
   "main": "bot.js",
