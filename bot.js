@@ -42,6 +42,8 @@ var retweet = function () {
     track: [
 
       "#florinpop1705",
+      "#gun7i"
+
       // "#girlswhocode",
       // "#girlsintech",
       // "#womenintech",
