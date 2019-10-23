@@ -87,6 +87,6 @@ var retweet = function () {
 
 retweet();
 
-/ Heroku + node.js error (Web process failed to bind to $PORT within 60 seconds of launch)
+// Heroku + node.js error (Web process failed to bind to $PORT within 60 seconds of launch)
 // https://stackoverflow.com/questions/15693192/heroku-node-js-error-web-process-failed-to-bind-to-port-within-60-seconds-of
 app.listen(process.env.PORT || 5000);
