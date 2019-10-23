@@ -3,7 +3,7 @@ require("dotenv").config({
   path: path.join(__dirname, ".env")
 });
 var twit = require("twit");
-// console.log(process.env);
+console.log(process.env);
 var Twitter = new twit({
   consumer_key: process.env.CONSUMER_KEY,
   consumer_secret: process.env.CONSUMER_SECRET,
