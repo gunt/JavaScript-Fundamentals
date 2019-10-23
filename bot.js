@@ -2,7 +2,7 @@
 // require("dotenv").config({
 //   path: path.join(__dirname, ".env")
 // });
-
+require('dotenv').config();
 
 // console.log(process.env);
 var twit = require("twit");
