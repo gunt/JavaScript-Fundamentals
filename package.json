@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node bot.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://git.heroku.com/js-fundamentals.git"
+  },
   "author": "gunt <gunt.fl@web.de>",
   "license": "MIT",
   "dependencies": {
