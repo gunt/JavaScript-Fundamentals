@@ -1,9 +1,12 @@
-const path = require("path");
-require("dotenv").config({
-  path: path.join(__dirname, ".env")
-});
+// const path = require("path");
+// require("dotenv").config({
+//   path: path.join(__dirname, ".env")
+// });
+
+
+// console.log(process.env);
 var twit = require("twit");
-console.log(process.env);
+
 var Twitter = new twit({
   consumer_key: process.env.CONSUMER_KEY,
   consumer_secret: process.env.CONSUMER_SECRET,
