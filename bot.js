@@ -1,12 +1,9 @@
-// const path = require("path");
-// require("dotenv").config({
-//   path: path.join(__dirname, ".env")
-// });
-require('dotenv').config();
-
-// console.log(process.env);
+const path = require("path");
+require("dotenv").config({
+  path: path.join(__dirname, ".env")
+});
 var twit = require("twit");
-
+console.log(process.env);
 var Twitter = new twit({
   consumer_key: process.env.CONSUMER_KEY,
   consumer_secret: process.env.CONSUMER_SECRET,
@@ -44,19 +41,19 @@ var retweet = function () {
   var stream = Twitter.stream("statuses/filter", {
     track: [
 
-      "#florinpop1705",
-      "#gun7i"
+      // "#florinpop1705",
+      // "#gun7i"
 
-      // "#girlswhocode",
-      // "#girlsintech",
-      // "#womenintech",
-      // "#womenintechnology",
-      // "#womenwhocode",
-      // "#womeninstem",
-      // "#femaletech",
-      // "#momsintech",
-      // "#momswhocode",
-      // "#femtech"
+      "#girlswhocode",
+      "#girlsintech",
+      "#womenintech",
+      "#womenintechnology",
+      "#womenwhocode",
+      "#womeninstem",
+      "#femaletech",
+      "#momsintech",
+      "#momswhocode",
+      "#femtech"
     ]
   });
 
