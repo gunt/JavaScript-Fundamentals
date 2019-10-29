@@ -9,25 +9,7 @@ var Twitter = new twit({
   consumer_secret: process.env.CONSUMER_SECRET,
   access_token: process.env.ACCESS_TOKEN,
   access_token_secret: process.env.ACCESS_TOKEN_SECRET
-  // timeout_ms: 60 * 1000, // optional HTTP request timeout to apply to all requests.
-  // strictSSL: true // optional - requires SSL certificates to be valid.
 });
-
-// var retweet = function() {
-//   var params = {
-//     q: "#nodejs, #Nodejs",
-//     result_type: "recent",
-//     lang: "en"
-//   };
-// };
-
-// Twitter.post("statuses/update", { status: "Hello Tech World!" }, function(
-//   err,
-//   data,
-//   response
-// ) {
-//   console.log(data);
-// });
 
 var blacklist = [
   "jcllobet",
@@ -43,17 +25,14 @@ var retweet = function () {
 
       // "#florinpop1705",
       // "#gun7i"
-
-      "#girlswhocode",
-      "#girlsintech",
-      "#womenintech",
-      "#womenintechnology",
-      "#womenwhocode",
-      "#womeninstem",
-      "#femaletech",
-      "#momsintech",
-      "#momswhocode",
-      "#femtech"
+      "#css",
+      "#git"
+      "#rails",
+      "#html",
+      "#developers",
+      "#typescript",
+      "#vscode",
+      "#vuejs"
     ]
   });
 
